@@ -1,0 +1,130 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba();
+    height: 100hv;
+    
+   
+}
+.video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+      width: 100%;
+        height: auto;
+    }
+    
+}
+@media (max-aspect-ratio:16/9)
+{
+    .video-background
+    {
+      width: auto;
+        height: 100%;
+    }
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.5),rgba(0,0,100,0.2));
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+        
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+#sideNav{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: linear-gradient(to left,rgba(0,0,100,0.4),rgba(0,0,100,0.3),rgba(0,0,100,0.2));
+    z-index: 1;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+   text-decoration: none;
+    color: #fff;
+    align-items: flex-end;
+    font-size: 25px;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to left);
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 2;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 0 0 20px #fff;
+}
+p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+}
+button{
+  width: 180px;
+    color: #000;
+    font-size: 15px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.button h4{
+    color: #fff;
+}

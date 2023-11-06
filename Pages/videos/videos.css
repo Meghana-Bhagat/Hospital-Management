@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2e8d86;
+    display: block;
+}
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.container h1{
+   
+   padding: 45px 0;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+    float: right;
+}
+
+
+.col-1{
+    margin-left: 900px;
+    margin-top: -300px;
+}
+
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 500px;
+    height: 100px;
+    gap: 50px;
+   
+}
+
+.small-img{
+    position: relative;
+}
+
+.small-img img{
+    width: 150px;
+    height: 104px;
+}
+
+.small-img-row p{
+    margin-left: 10px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.play-btn{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.small-img .imeges{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.video-playr{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+video:focus{
+    outline: none;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.back-btn{
+    z-index: 100000000000000000;
+  margin-left: 1600px;
+  margin-bottom: 50px;
+  
+}
+
+.back-btn button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: aqua;
+  box-shadow: 0.1px 8px 8px 2px rgba(0,0,0,0.2) inset,
+                0.1px 8px 8px 2px rgba(0,0,0,0.2);
+   cursor: pointer;
+}
+
+.back-btn img{
+    height: 40px;
+    width: 40px;
+}

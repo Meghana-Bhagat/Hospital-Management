@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://image.shutterstock.com/image-photo/rochester-minnesota-1112019-entrance-mayo-260nw-1556828168.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+        
+}
+body{
+    overflow: hidden;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+#sideNav{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: linear-gradient(to left,#000,#999,#fff);
+    z-index: 1;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+   text-decoration: none;
+    /* color: #fff; */
+    color: #000;
+    align-items: flex-end;
+    font-size: 20px;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to left);
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 2;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+  width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.button h4{
+    color: #fff;
+}
+
+.data1{
+     background-image: url(https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2019/10/28/15/57/az-ph-hospital-1520x600-3311219-0030.jpg);
+}
+.data2{
+     background-image: url(https://college.mayo.edu/media/mccms/content-assets/about/news/june-2019/mayo-clinic-florida-campus-1024x512-3571745_0004.jpg);
+}
+.data3{
+     background-image: url(https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2019/10/28/15/57/roch-campus-720x400-3col);
+}
+.data4{
+     background-image: url(https://www.baxter.com.co/sites/g/files/ebysai1216/files/2018-11/Mayo.jpg);
+}
+.data5{
+     background-image: url(https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2019/10/28/15/57/roch-hero-828x386-3714034-0006.jpg?la=en&hash=BE3BADC0E9C99C515B7559EC06F31533BA94EC8D);
+}
+.data6{
+     background-image: url(https://college.mayo.edu/media/mccms/content-assets/campus-amp-community/arizona/PhoenixCampus_02.jpg);
+}
+.data:hover{
+    transform:translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+.data p{
+    text-shadow: 0 0 15px #999;
+    font-size: 10px;
+}
+h4{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.data h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left{
+    margin-bottom: 80px;
+    width: 40%;
+    margin-right: 80px;
+}
+
+.left p{
+    font-size: 15px;
+}
+
+.data{
+    padding: 15px;
+    height: 250px;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data p{
+    color: #000;
+    font-size: 12px;
+    text-shadow: #999 10px;
+    background-color: #e2e2e28f;
+}

@@ -1,0 +1,94 @@
+<html>
+<head> 
+    <title>Home page</title>
+    <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="navbar">
+            <a href="./index.html">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41LLYE%2BnRDL.png" class="logo"></a>
+        </div>
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <b><i><li><a href="#">Home</a></li>
+                <li><a href="./Pages/wards/wardes.html">Wardes</a></li>
+                <li><a href="./Pages/doctors/doctors.html">Doctors</a></li>
+                    <li><a href="./Pages/comment/comment.html">Comment</a></li></i>
+                    <li><a href="./Pages/food/food.html">Food</a></li>
+                    <li><a href="./Pages/application/applicatio.html">Application</a></li>
+                    <li><a href="./Pages/data/data.html">Contents</a></li>
+                    <li><a href="./Pages/videos/videos.html">Videos</a></li>
+                    <li><a href="./Pages/map/Map.html">Map</a></li>
+                    <li><a href="./Pages/form/form.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div id="menuBtn">
+        <img src="https://icon-library.com/images/three-bar-menu-icon/three-bar-menu-icon-3.jpg" id="menu">
+        </div>
+           <script>
+        var menuBtn = document.getElementById("manu")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        
+        menu.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "https://cdn1.iconfinder.com/data/icons/pointed-edge-web-navigation/101/cross-512.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "https://icon-library.com/images/three-bar-menu-icon/three-bar-menu-icon-3.jpg";
+            }
+        }
+        </script>
+
+        <div class="main">
+            <div class="left">
+                <h1>Mayo Clinic</h1>
+                <p>Mayo Clinic is a nonprofit American academic medical center focused on integrated health care, education, and research Mayo Clinic has major campuses in Rochester, Minn.; Scottsdale and Phoenix, Ariz.; and Jacksonville, Fla. The Mayo Clinic Health System has dozens of locations in several states. Thousands of patients from around the world travel to Mayo Clinic locations, and Mayo Clinic's International Patient Offices help ensure that distance and language are not obstacles to receiving world-class care.
+    </p>
+                <a href="https://en.wikipedia.org/wiki/Mayo_Clinic">
+                    <button type="button"><h4>Information</h4></button></a>
+            </div>
+            <div class="right">
+                <div class="r">
+                    <div class="data data1">
+                        <h1>In Arizona</h1>
+                        <p>Mayo Clinic in Arizona ranked nationally in 10 specialties including: Cancer, Cardiology and Heart Surgery, Diabetes and Endocrinology, Ear, Nose and Throat, Gastroenterology and Gastroenterologic Surgery, Geriatrics, Nephrology, Neurology and Neurosurgery, Orthopedics and Pulmonology.
+                        </p>
+                    </div>
+                    <div class="data data2">
+                        <h1>In Arizona</h1>
+                        <p>Mayo Clinic in Florida was highly ranked above the national average in Cardiology and Heart Surgery, Nephrology and Urology. Mayo Clinic's Florida campus provides diagnosis, medical treatment, surgery and care for more than 105,000 patients each year in 40 specialty areas.</p>
+                    </div>
+                </div>
+                <div class="r">
+                    <div class="data data3">
+                        <h1>In Arizona</h1>
+                        <p>Mayo Clinic in Rochester, Minnesota, the original and largest Mayo Clinic campus. Located in the heart of Rochester, Minnesota — a dynamic city just 90 minutes south of the Twin Cities of Minneapolis and St. Paul — Mayo Clinic has been safely caring for patients from around the world for more than 100 years.</p>
+                    </div>
+                    <div class="data data4">
+                        <h1>In Arizona</h1>
+                        <p>Mayo Clinic's campus in Jacksonville is convenient for patients traveling from Florida, Georgia, the Carolinas, the Southeast and even South America. Jacksonville is centrally located and easily accessible by air, bus or car.</p>
+                    </div>
+                </div>
+                <div class="r">
+                    <div class="data data5">
+                        <h1>In Arizona</h1>
+                        <p>Rochester is a 2,059-bed hospital located in Rochester, Minnesota. It comprises the Saint Marys Campus, and Mayo Eugenio Litta Children's Hospital, forming an integral part of the Mayo Clinic academic medical center.</p>
+                    </div>
+                    <div class="data data6">
+                        <h1>In Arizona</h1>
+                        <p>Mayo Clinic is a private group practice of medicine dedicated to providing diagnosis and treatment of patient illnesses through a systematic focus on individual patient needs. As a leading academic medical center in the Southwest,Mayo Clinic focuses on providing specialty and surgical care in more than 65 disciplines</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    
+    </body>
+</html>

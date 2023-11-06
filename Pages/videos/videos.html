@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayo Clinic Videos</title>
+    <link rel="stylesheet" href="./videos.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Video's related to mayo clinic</h1>
+   
+      <div class="row">
+          <div class="col">
+              <div class="feature-img">
+                  <img src="../../img/Snapshot(2).png" width="100%">
+                  <img src="../../img/play-circle-regular-240.png" class="play-btn" onclick="playVideo('../../Videos/history.mp4')">
+                  <h1>History of mayo clinic</h1>
+          </div>
+        
+          <div class="col-1">
+           
+              <div class="small-img-row">
+                  <div class="small-img">
+                  <img src="../../img/mayoclinic    1.png">
+                  <img src="../../img/play-circle-regular-240.png" class="imeges" onclick="playVideo('../../Videos/mayoclinic 1.mp4')">
+                </div>
+                  <p>This video shows all the parts<br>of mayo clinic which are for doctors patient and all </p>
+              </div>
+
+              <div class="small-img-row">
+                <div class="small-img">
+                    <img src="../../img/mayoclinic   2.png">
+                    <img src="../../img/play-circle-regular-240.png" class="imeges" onclick="playVideo('../../Videos/mayoclinic2.mp4')">
+                </div>
+                <p>This video shows all the proparties of <br>mayo clinic which it can cantain</p>
+            </div>
+
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="../../img/mayoclinic    3.png">
+                    <img src="../../img/play-circle-regular-240.png" class="imeges" onclick="playVideo('../../Videos/mayoclinic3.mp4')">
+                </div>
+                <p>This video shows all imformatin<br>about the behavear of all doctors and mayo clinic staff</p>
+            </div>
+          
+          </div>
+         
+      </div>
+     
+    </div>
+
+    <div class="video-playr" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+          <source src="" type="video/mp4">
+        </video>
+        <img src="../../img/x-circle-regular-156.png" class="close-btn" onclick="stopVideo()">
+    </div>
+    
+
+    <script>
+         var videoPlayer = document.getElementById("videoPlayer");
+         var myVideo = document.getElementById("myVideo");
+
+         function stopVideo(){
+            videoPlayer.style.display = "none";
+         }
+
+         function playVideo(file){
+             myVideo.src = file;
+             videoPlayer.style.display = "block";
+         }
+
+    </script>
+</body>
+</html>

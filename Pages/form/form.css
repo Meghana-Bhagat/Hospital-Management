@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/1282794.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.regform{
+    width: 800px;
+    background-color: rgba(0,0,0,0.6);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgba(0,0,0,0.5);
+    width: 800px;
+    height: 850px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+form{
+    padding: 10px;
+}
+
+#name{
+    width: 100%;
+    height: 100px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position: relative;
+    left: 160px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.firstlabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 20px;
+    top: 8px;
+}
+
+.lastlabel{
+     position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 0px;
+    top: 8px;
+}
+
+.company{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.code{
+     position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 255px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.area-code{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 54px;
+    top: -4px;
+}
+
+.phone-number{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -100px;
+    top: -2px;
+}
+
+.option{
+     position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+
+.option option{
+    font-size: 15px;
+}
+
+#student{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.radio input{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+button{
+    background-color: #3BAF9F;
+    text-align: center;
+    border-radius: 12px;
+    padding: 14px 110px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.tx{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.ooo h2{
+    margin-left: -20px;
+}
+
+.ooo{
+    margin-left: 240px;
+    margin-top: 10
+}
+

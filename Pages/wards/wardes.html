@@ -1,0 +1,60 @@
+<html>
+    <head>
+    <title>Wardes of hospital</title>
+        <link rel="stylesheet" href="wardes.css">
+    </head>
+    <body>
+     
+        <div class="header">
+        <video autoplay loop class="video-background" muted plays-inline>
+           <source src="../../Videos/WhatsApp Video 2021-05-08 at 7.24.15 PM.mp4" type="video/mp4"> 
+            </video>
+        </div>
+        
+        
+                  <div class="container">
+        <div class="navbar">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41LLYE%2BnRDL.png"  class="logo">
+        
+        </div><br>
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <b><i><li><a href="../../index.html">HOME</a></li>
+                <li><a href="#">Wardes</a></li>
+                <li><a href="../doctors/doctors.html">Doctors</a></li>
+                    <li><a href="../comment/comment.html">Comment</a></li></i></b>
+                </ul>
+            </nav>
+        </div>
+            <div id="menuBtn">
+        <img src="https://icon-library.com/images/three-bar-menu-icon/three-bar-menu-icon-3.jpg" id="menu">
+        </div>
+           <script>
+        var menuBtn = document.getElementById("manu")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        
+        menu.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "https://cdn1.iconfinder.com/data/icons/pointed-edge-web-navigation/101/cross-512.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "https://icon-library.com/images/three-bar-menu-icon/three-bar-menu-icon-3.jpg";
+            }
+        }
+        </script>
+        
+        
+        <div class="row">
+        <div class="col">
+            <h1>Diffrent Wardes Of Mayo Clinic</h1>
+            <p>There are many wardes in Mayo Clinic like lebor warde , nurology warde , surgery warde , cardiology warde , corona awarde etc. for the information of all thes wardes of Mayo clinic Please click on information button ......
+</p>
+            <a href="../ward info/information wardes.html">
+            <button type="button"><h4>Information</h4></button></a>
+            </div>
+    </body>
+</html>
